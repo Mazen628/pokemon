@@ -26,7 +26,7 @@ async function haalDataOp() {
 function toonData(pokemon) {
     infoEl.innerHTML = "";
     let card = document.createElement("div");
-        card.classList.add("card");
+    card.classList.add("card");
 
     let nameEl = document.createElement("p");
     nameEl.textContent = pokemon.name;

@@ -9,9 +9,9 @@ body {
 
 
 .card {
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 50rem;
+    flex-direction: column;  
 }
-
